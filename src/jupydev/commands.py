@@ -27,6 +27,13 @@ def jupydev_docs():
         ["echo", "hi"], 
         check=True) 
 
+def jupydev_init(): 
+    
+    subprocess.run(
+        ["echo", "init"], 
+        check=True) 
+
+# this is probably not nescessary 
 if __name__ == '__main__': 
     jupydev_docs()
 

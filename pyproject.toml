@@ -21,6 +21,7 @@ Repository = "https://github.com/fligt/jupydev"
 
 [project.scripts]
 jupydev_docs = "jupydev:jupydev_docs"
+jupydev_init = "jupydev:jupydev_init" 
 
 [build-system]
 requires = ["uv_build>=0.12.2,<0.14"]
