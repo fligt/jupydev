@@ -1,7 +1,7 @@
 [project]
 name = "jupydev"
 version = "0.1.0"
-description = "Commandline tthe jupydev cookiecutter"
+description = "Commandline tool for the jupydev cookiecutter workflow"
 readme = "README.md"
 license = "MIT" 
 license-files = ["LICENSE"]
@@ -9,7 +9,9 @@ authors = [
     { name = "Frank" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "cookiecutter>=2.7.1",
+]
 
 [project.urls]
 Homepage = "https://github.com/fligt/jupydev"
@@ -17,8 +19,8 @@ Documentation = "https://fligt.github.io/jupydev"
 Repository = "https://github.com/fligt/jupydev"
 
 
-#[project.scripts]
-#fix-uv-jupytext = "fix_uv_jupytext:main"
+[project.scripts]
+jupydev_docs = "jupydev:jupydev_docs"
 
 [build-system]
 requires = ["uv_build>=0.12.2,<0.14"]
