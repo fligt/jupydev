@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "02_a-second-qmd-based-notebook.html",
+    "href": "02_a-second-qmd-based-notebook.html",
+    "title": "This is a second documentation page",
+    "section": "",
+    "text": "print('hoi')\n\nhoi",
+    "crumbs": [
+      "This is a second documentation page"
+    ]
+  },
+  {
+    "objectID": "00_index.html",
+    "href": "00_index.html",
+    "title": "Welcome to jupydev",
+    "section": "",
+    "text": "Welcome to jupydev\nThis is the commandline tool to help you to get started with the jupydev cookiecutter template for cooperative development of python packages.",
+    "crumbs": [
+      "Welcome to jupydev"
+    ]
+  },
+  {
+    "objectID": "01_this-is-a-quarto-markdown-notebook.html",
+    "href": "01_this-is-a-quarto-markdown-notebook.html",
+    "title": "This is a quarto markdown notebook",
+    "section": "",
+    "text": "Hi there! Run the code cell below to check if all is working well.\n\nfrom jupydev import say_hello \n\nsay_hello(\"Frank\")\n\nHello Frank\n\n\nDo we still have our line above with ‘Hi there’?",
+    "crumbs": [
+      "This is a quarto markdown notebook"
+    ]
+  }
+]
